@@ -6,3 +6,54 @@ body, .top, .header-text, .middle{
 .header, .header-links, .header-main, .middle-imgs{
    display: flex;
 }
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.top {
+    background-color: #1F2937;
+    color: #f9f9f9
+}
+
+.middle {
+    background-color: white;
+}
+
+.bottom {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
+.header-link {
+    font-size: 18px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.middle .header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
