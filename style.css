@@ -1,0 +1,8 @@
+body, .top, .header-text, .middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .header-links, .header-main, .middle-imgs{
+   display: flex;
+}
