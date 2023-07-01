@@ -14,7 +14,7 @@ body, .top, .header-text, .middle, .img-box{
 .top {
     background-color: #1F2937;
     color: #f9f9f9;
-    padding: 0 0 50px 0;
+    padding: 20px 200px 50px 200px;
 }
 
 .middle {
@@ -41,24 +41,49 @@ body, .top, .header-text, .middle, .img-box{
     font-size: 24px;
 }
 
+.logo {
+    width: 50%;
+}
+
+.header-links {
+    width: 50%;
+    justify-content: flex-end;
+}
+
 .header-link {
     font-size: 18px;
+    padding: 0 15px;
+}
+
+.header-main {
+    justify-content: space-between;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8
+    color: #f9faf8;
+    width: 100%;
+    padding: 0 0 10px 0;
 }
 
 .hero-text {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    width: 70%;
+    padding: 0 0 15px 0;
 }
 
 .signup {
+    width: 120px;
+    height: 30px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 10px;
+}
+
+.header-main img{
+    border-radius: 3px;
 }
 
 .middle .header {
@@ -66,14 +91,27 @@ body, .top, .header-text, .middle, .img-box{
     font-weight: 900;
     color: #1f2937;
     padding: 0 0 30px 0;
-
 }
 
 .img-box {
     align-items: center;
-    flex-basis: calc(33.33% - 20px);
     max-width: 200px;
+}
 
+.header{
+    padding: 0 0 50px 0;
+    justify-content: space-between;
+}
+
+.header-text {
+    align-items: left;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.img-box img {
+    border-radius: 25px;
+    border: 2px solid blue;
 }
 
 .img-box .text {
